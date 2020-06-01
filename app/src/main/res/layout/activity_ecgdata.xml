@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ECGData"
+    android:orientation="vertical">
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart5"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is ECG ?"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:text="An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity. Sensors attached to the skin are used to detect the electrical signals produced by your heart each time it beats"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Causes of abnormal ECG:"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:text="Irregular heart rhythm.\nHigh blood pressure.\nMedication side effects. \nIrregular heart rhythm. \nelectrolyte imbalances (may require correction with medications or fluids)
+"           android:textSize="15sp"
+        android:textStyle="bold" />
+</LinearLayout>
